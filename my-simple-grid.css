@@ -1,0 +1,122 @@
+html {
+    background: url(Mt_Fuji.jpg) no-repeat center center fixed;
+    padding: 0px;
+    width: 100%;
+}  
+
+body {
+    margin: 1em;
+}
+
+.myPic {
+    float: right;
+    margin-top: 35px;
+
+}
+
+.right {
+    float: right;
+    
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.n1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-right: 0px;
+    background: url("Lion's_head.gif") center;
+    background-size: cover;
+    display: flex;
+}
+
+.n2 {
+    margin-left: 10px;
+}
+
+.TokyoPic {
+    float: left;
+    margin-right: 10px;
+}
+
+.n2a {
+    float: right;
+    margin-right: 0px;
+}
+
+table, td, th {
+        font-family: 'Lato', Helvetica, sans-serif;
+        border: 0.5px solid black;
+        border-width: 2px;
+        border-spacing: 0px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: black;
+        line-height: 1.5;
+    }
+
+.row {
+
+}
+
+@media only screen and (min-width: 45em) {
+    html {
+        background: url(Mt_Fuji.jpg) no-repeat center center fixed;
+        padding: 0px;
+        width: 100%;
+    }       
+    
+    .myPic {
+        float: right;
+        margin-top: 5px;
+        margin-left: 125px;
+
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    .left {
+        float: right;
+        margin-left: 10px;
+    }
+    
+    .n1 {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        background: url("Lion's_head.gif") center;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .n2 {
+        
+    }
+    
+    .n2a {
+        float: right;
+        margin-left: 600px;
+    }
+    
+    .n4 {
+
+    }
+    
+    .TokyoPic {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .row {
+    
+    }
+
+}
